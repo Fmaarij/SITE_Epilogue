@@ -1,0 +1,146 @@
+@media screen and (max-width:768px) {
+
+    .diamond{
+        border: 1px grey solid;
+        width: 10%;
+        padding: 0.5rem;
+    }
+        .sec1{
+            padding-left: 10rem ;
+            padding-right: 10rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .p_sec1{
+        font-size: 1.3rem;
+    }
+
+    /*section 2*/
+
+    .sec2txt{
+      font-size: 1.2rem;
+      left: 50%;
+    }
+    .sec2txt1{
+      font-size: 1.2rem;
+      width: 100%;
+    }
+    .p_sec2{
+        font-size: 1.2rem;
+        width: 100%;
+        
+    }
+    .sec2{
+        padding: 0;
+    }
+    .p_sec2{
+        padding: 0;
+        
+    }
+
+
+
+
+    /*section 3*/
+    .sec3txt{
+        top: -14%;
+      font-size: 1.2rem;
+    }
+    .sec3txt1{
+        position: relative;
+        top: 16%;
+      font-size: 1.2rem;
+    }
+    .sec3{
+        padding: 0;
+        width: 100%;
+    }
+    .p_sec3{
+        padding: 0;
+        width: 100%;
+        opacity: %;
+      
+    }
+    .sec3txt{
+        top: -24%;
+        left: 50%;
+    }
+
+    .Foot1{
+        padding: 0;
+     
+    }
+    .footer .txtfoo11{
+        font-size: 1.2rem;
+        width: 50%;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width:320px){
+
+    body{
+     width: 100%;
+     
+    }
+
+    .centered{
+        font-size: 2rem;
+    }
+
+    header img{
+        height: 250PX;
+        width: 100%;
+      
+    }
+    .sec1{
+        padding: 0;
+    }
+
+.sec2{
+    flex-direction: column;    
+}
+.sec2txt{
+    transform: translate(-50%, -500%);
+  font-size: 1rem;
+   
+}
+.sec2txt1{
+    transform: translate(-50%, -500%);
+  font-size: 1rem;
+}
+
+/*Section 3*/
+.sec3{
+    flex-direction: column;   
+}
+
+
+.sec3txt{
+    transform: translate(-50%, -500%);
+
+    font-size: 1rem;
+}
+.sec3txt1{
+    transform: translate(-50%, -500%);
+
+  font-size: 1rem;
+}
+/*footer*/
+
+.Foot1 .txtfoo11{
+    font-size: 18px;
+
+    padding-left:0rem ;
+    padding-right: 0rem;
+   padding: 0;
+   width: 100%;
+
+}
+
+}
+

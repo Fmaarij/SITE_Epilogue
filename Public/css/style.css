@@ -1,0 +1,227 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+header img{
+    height: 500PX;
+    width: 100%;
+}
+h1{
+    font-size: medium;
+    color: rgb(116, 106, 106);
+    margin-top: 2rem;
+}
+@font-face {
+    font-family: Faisal;
+    src: url(../Font/ROMANTICE.otf);
+}
+
+img{
+    filter: brightness(0.6);
+} 
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.banner #pheader{
+    margin-top: 5rem;
+    opacity: 50%;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+
+.dashheader{
+    color: purple;
+    border: 1px grey solid;
+    width: 35%;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  font-family: Faisal;
+  font-size: 4rem;
+  }
+
+  /*main*/
+main{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+/*section 1*/
+.sec1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding-left:15rem;
+    padding-right: 15rem;
+  
+    
+}
+.diamond{
+    border: 1px grey solid;
+    width: 5%;
+    margin: auto;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+#diamond{
+    margin-top: 2rem;
+}
+.button_sec1{
+    margin-bottom: 2rem;
+}
+button{
+    width: 150px;
+    height: 40px;
+   letter-spacing: 2px;
+   margin-top: 1rem;
+   opacity: 80%;
+}
+.sec1{
+    padding-left: 15rem ;
+    padding-right: 15rem;
+}
+.p_sec1{
+font-size:14px;
+text-align: center;
+opacity: 50%;
+}
+
+/*section 2*/
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;  
+    gap:20px 20px;
+    
+}
+.sec2txt{
+    position: relative;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -760%);
+  color: white;
+  font-size: 1.3rem;
+}
+.sec2txt1{
+    position: relative;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -760%);
+  color: white;
+  font-size: 1.3rem;
+}
+.sec3txt{
+    position: relative;
+    top: -23%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.3rem;
+}
+.sec3txt1{
+    position: relative;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -760%);
+  color: white;
+  font-size: 1.3rem;
+}
+.p_sec2,.p_sec3{
+    padding-left:5rem;
+    padding-right:5rem;
+    color:black;
+    opacity: 50%;
+}
+
+.sideleft_sec2, .sideright_sec2{
+    background-color: white;
+}
+
+.sec2 img{
+ width: 100%;
+ margin: auto;
+}
+
+.button_sec2{
+margin-bottom: 1.5rem;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    gap: 20px 20px;
+}
+
+.sideleft_sec2-3,.sideright_sec3{
+    background-color: white;
+}
+.sec3 img{
+    width: 100%;
+    margin: auto;
+    
+   }
+   .button_sec3{
+    margin-bottom: 1.5rem;
+    }
+
+
+        /*footer*/
+    .Foot1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+        
+    }
+    .Foot1 button{
+        margin: auto;
+    }
+
+    .Foot1 p{
+        font-size: 18px;
+        opacity: 50%;
+        padding-left:15rem ;
+        padding-right: 15rem;
+       margin-bottom: 1.5rem;
+    }
+ 
+.Foot2{
+    display: flex;
+    color: white;
+}
+.foot2 p,i{
+    opacity: 50%;
+    font-size: 0.8rem;
+}
+.dash{
+    border: 1px grey solid;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+    margin-bottom:2rem ;
+}
+
+.icons_row i{
+ padding:0.5rem;   
+}
+
+    
