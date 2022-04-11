@@ -223,5 +223,8 @@ margin-bottom: 1.5rem;
 .icons_row i{
  padding:0.5rem;   
 }
+span{
+    border-bottom: 1px grey solid;
+}
 
     
